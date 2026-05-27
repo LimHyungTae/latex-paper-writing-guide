@@ -828,7 +828,7 @@
 
       <p class="lead">
         <span data-lang="en">
-          This page is a public, living checklist of writing rules I wish I had been told before submitting my first paper. It is unapologetically opinionated, sometimes konglishy, and biased toward robotics / SLAM / 3D vision papers, but most of the rules generalize. Read it before you start writing, and again before you send the draft to your advisor.
+          This page is a public, living checklist of writing rules I wish I had been told before submitting my first paper. My goal here is to share the wisdom I have personally earned while writing more than a dozen papers myself, so that you don't have to relearn the same lessons the hard way. The content is biased toward robotics / SLAM / 3D vision papers, but most of the rules generalize. Read it before you start writing, and again before you send the draft to your advisor.
         </span>
         <span data-lang="ko">
           이 글은 향후 내가 임용된 후 대학원생들의 논문을 검토할 때, 같은 말을 각 학생에게 반복해서 설명하는 행위를 그나마 덜 하기 위해 작성하게 되었다. 이는 철저히 <b>나의 취향이 반영된 writing 체크리스트</b>이며, 일부 항목은 right/wrong(반드시 따라야 할 것)이고 일부는 better/worse(따르면 좋은 것)의 영역이다. 논문을 쓰기 전에 한 번 읽고, 교수님께 논문을 드리기 전에 다시 한 번 살펴본 후 v1 논문을 드리면 🎓✨ 당신도 할 수 있다! @박사 3년 졸업★ ✨🎓 ~(아님 말고)~
@@ -892,7 +892,7 @@
           <span data-lang="ko">논문은 <b>엄격한 template이 존재하는 글</b>이다.</span>
           <ul>
             <li>
-              <span data-lang="en">If this is your first paper, please do <b>not</b> try to be creative with phrasing or figures. 95% of the time, your "creative" representation is just unreadable to everyone else.</span>
+              <span data-lang="en">If this is your first paper, please do <b>not</b> try to be creative with phrasing or figures. Mostly, your "creative" representation is just unreadable to everyone else. As someone once said, <i>imitation is the mother of creation</i>.</span>
               <span data-lang="ko">논문을 처음 쓰는 이라면 <b>제발 창의적으로 글이나 figure를 표현하지 말라</b>. 95%의 확률로 당신만 알아볼 수 있는 기괴한 representation을 사용할 확률이 높음.</span>
             </li>
             <li>
@@ -913,6 +913,10 @@
             <li>
               <span data-lang="en">If you are a co-author, do at least one round of proofreading. Run Grammarly, or ask ChatGPT to proofread one section at a time. Below is the kind of prompt that tends to give the best results:</span>
               <span data-lang="ko">공동 저자라면, 책임감을 가지고 한 번은 proofreading을 도와주자. Grammarly 돌리기 or ChatGPT한테 한 section씩 proofreading해달라고 하기. 너무 많은 양의 내용을 한꺼번에 물어보면 대충 알려 줌. 한 section씩 raw latex 코드로 물어보는 걸 추천. ChatGPT에게는 아래와 같이 물어주면 마 똘똘하이 잘 해줌!</span>
+            </li>
+            <li>
+              <span data-lang="en">More recently, I rely on <b>Codex</b> and <b>Claude Code</b> for sentence-level refinement; they handle latex-aware edits much more reliably than the chat interface.</span>
+              <span data-lang="ko">최근에는 문장 단위 refinement에는 <b>Codex</b>와 <b>Claude Code</b>를 활용한다. Chat 인터페이스보다 latex을 더 잘 다뤄 줌.</span>
             </li>
           </ul>
 <pre><code class="language-markdown">Below is the ${SECTION} of my paper.
@@ -938,7 +942,7 @@ Lines starting with % are LaTeX comments, so please ignore them.</code></pre>
         </li>
 
         <li>
-          <span data-lang="en">Unless your TOEFL is &gt; 110, <b>respect your advisor's writing style</b>.</span>
+          <span data-lang="en"><b>Respect your advisor's writing style</b> and try to absorb their strategy as much as you can.</span>
           <span data-lang="ko">토플 점수가 110점 이상이 아니라면, 지도교수님의 writing style을 최대한 존중하자.</span>
           <ul>
             <li>
@@ -973,7 +977,7 @@ Lines starting with % are LaTeX comments, so please ignore them.</code></pre>
         </li>
 
         <li>
-          <span data-lang="en"><b>English prefers noun forms</b>. Native speakers say <i>"He is a good cook"</i>, not <i>"He cooks well"</i>.</span>
+          <span data-lang="en"><b>English prefers noun forms</b> (for those of us whose mother tongue is not English). Native speakers say <i>"He is a good cook"</i>, not <i>"He cooks well"</i>.</span>
           <span data-lang="ko">영어는 명사형으로 쓰는 게 자연스러움. He cooks well (x)이라고 하지 않고, He's a good cook (o)라고 하는 게 외국인 입장에서 자연스러움.</span>
           <div class="compare">
             <div class="col bad">
@@ -988,7 +992,7 @@ Lines starting with % are LaTeX comments, so please ignore them.</code></pre>
         </li>
 
         <li>
-          <span data-lang="en">If you don't really know a word, <b>look up its full definition in a reputable English dictionary first</b> (Merriam-Webster, Cambridge, OED). Don't rely on a quick bilingual translation, which usually gives a one-word gloss and strips out the nuance. Then check actual usage on <a href="https://ludwig.guru/">Ludwig</a> or Google.</span>
+          <span data-lang="en">If you don't really know a word, <b>look up its full definition in a reputable English dictionary first</b>. Don't rely on a quick bilingual translation, which usually gives a one-word gloss and strips out the nuance. Then check actual usage on <a href="https://ludwig.guru/">Ludwig</a> or Google.</span>
           <span data-lang="ko">자기가 잘 모르는 영어 단어를 쓰고자 한다면 반드시 영영 사전에서의 의미를 읽어보고, 실제로 어떻게 사용되는지 구글이나 <a href="https://ludwig.guru/">ludwig</a>로 해당 단어가 실제로 쓰이는지 확인할 것 (근데 하루 횟수 제한이 있음).</span>
         </li>
 
@@ -1005,8 +1009,7 @@ Lines starting with % are LaTeX comments, so please ignore them.</code></pre>
               <pre><code>simultaneous localization and mapping (SLAM)</code></pre>
             </div>
           </div>
-          <div class="note">
-            <span data-lang="en">Interestingly, Korean-language journals do the opposite: <code>SLAM(Simultaneous Localization And Mapping)</code> with no space between the abbreviation and the parenthesis.</span>
+          <div class="note" data-lang="ko">
             <span data-lang="ko">신기한 점은, 오히려 한글 저널/국내 논문에서는 SLAM(Simultaneous Localization And Mapping)와 같이 약어를 먼저 제시하고 full term을 풀어서 작성함 + 괄호와 약어 간 space 없음.</span>
           </div>
         </li>
@@ -1066,7 +1069,7 @@ Our method shows favorable results
         </li>
 
         <li>
-          <span data-lang="en">Some non-English-speaking countries (e.g., South Korea) teach passive voice religiously, but using <code>we</code> is fine. Just don't overuse it in the methodology section.</span>
+          <span data-lang="en">Some non-English-speaking traditions teach passive voice religiously, but using <code>we</code> is fine. Just don't overuse it in the methodology section.</span>
           <span data-lang="ko">일부 비영어권 국가(e.g., 한국)에서는 passive voice로 글을 쓰라고 많이들 가르치는데, <code>we</code>를 써도 괜찮다. 다만 methodology 부분에서는 너무 많이 쓰지 말 것.</span>
         </li>
 
@@ -1684,7 +1687,7 @@ than the baselines on KITTI 00.</code></pre></div>
           </div>
         </li>
         <li>
-          <span data-lang="en"><b>The first sentence of a caption is a noun phrase</b> (concise style, ending in a period). This mirrors the Korean proposal-writing convention of "<i>~에 대한 개략도.</i>" at the start of a caption.</span>
+          <span data-lang="en"><b>The first sentence of a caption is a noun phrase</b> (concise style, ending in a period).</span>
           <span data-lang="ko"><b>Caption의 첫 문장은 명사구로 작성</b>할 것 (개조식 스타일, 마침표로 종결). 한국어 제안서에서 <i>"~에 대한 개략도. (a) AA를 나타냄. (b) BB하는 과정을 시각화함."</i>처럼 첫 줄을 명사구로 시작하는 convention과 동일.</span>
           <div class="compare">
             <div class="col bad"><div class="label">Don't</div><pre><code>This figure shows the overview of our pipeline.</code></pre></div>
@@ -1736,8 +1739,7 @@ Comparison of trajectory errors on KITTI 07.</code></pre></div>
         <span data-lang="ko">논문의 구조</span>
       </h2>
 
-      <p>
-        <span data-lang="en">If you have never written a paper before, my Korean essay <a href="https://brunch.co.kr/@85a651d484d84f2">on Brunch</a> may give you the high-level intuition first.</span>
+      <p data-lang="ko">
         <span data-lang="ko">논문을 한 번도 안 써본 이는 <a href="https://brunch.co.kr/@85a651d484d84f2">나의 브런치 글</a>을 한 번 읽어보면 감이 오리라 생각된다.</span>
       </p>
 
